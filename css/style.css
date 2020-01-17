@@ -1,0 +1,26 @@
+article, section, div {
+  display: block;
+}
+
+#hero {
+  width: 960px;
+}
+
+#hero img {
+  width:960px;
+}
+
+.breakline {
+  background-image: url("../img/hr-img.png");
+  background-repeat: repeat-x;
+  width: 960px;
+}
+
+#notePad {
+  background-image: url("../img/list-bg.png");
+}
+
+#share  {
+  color: white;
+  background-color: red;
+}
