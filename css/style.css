@@ -1,18 +1,58 @@
+/* 
+font-family: 'Pacifico', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Kalam', cursive; 
+font-family: 'Montserrat', sans-serif;
+*/
+
 article, section, div {
   display: block;
 }
 
-#hero {
+header {
   width: 960px;
+  display:block;
+  margin:auto;
+  height: 45px;
+}
+
+#mainLogo {
+
+  float:left;
+}
+
+#mediaLinks {
+  float:right;
+}
+
+#mediaLinks ul li {
+  display:inline;
+  /* margin-left: 1px; */
+  /* margin-right: 1px; */
+}
+
+#mediaLinks ul li:nth-last-child(2){
+  margin-left:15px;
+}
+
+header li {
+  list-style-type: none;
+}
+
+#hero {
+  width: 100%;
 }
 
 #hero img {
+  display: block;
   width:960px;
+  margin: auto;
+  
 }
 
 .breakline {
   background-image: url("../img/hr-img.png");
-  background-repeat: repeat-x;
+  background-repeat: repeat;
   width: 960px;
 }
 
