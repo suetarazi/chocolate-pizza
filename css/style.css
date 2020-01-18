@@ -1,5 +1,4 @@
 /* 
-font-family: 'Pacifico', cursive;
 font-family: 'Oswald', sans-serif;
 font-family: 'Kalam', cursive; 
 font-family: 'Montserrat', sans-serif;
@@ -158,7 +157,31 @@ p {
   list-style-type: square;
 }
 
+#outerBox {
+  width: 960px;
+  margin: auto;
+}
+
+#vanessaPic {
+  display: inline-block;
+}
+
+#vanessaBio {
+  display: inline-block;
+  width: 300px;
+  list-style-type: none; 
+}
+
+#vanessaBio li:first-child {
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  font-size: 20pt; 
+}
+
+
 #share  {
+  width: 250px;
+  display: inline-block;
   color: white;
   background-color: red;
 }
